@@ -1,0 +1,37 @@
+
+body {
+    background-image: url(images/websitebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+}
+
+.left-btn, .right-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+.left-btn:hover, .right-btn:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+.left-btn {
+    left: 20%;
+}
+
+.right-btn {
+    right: 20%;
+
+}
+
+.polaroid {
+    max-width: 80%;
+    max-height: 100vh;
+}
